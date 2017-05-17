@@ -1,13 +1,16 @@
 @charset "utf-8";
-/* Margin & Padding reset */
+/* MARGIN & PADDING RESET */
 body, h1, h2, h3, h4, p, img, ul, li
 {
     padding: 0;
     margin: 0;
 }
 
-/*Responsive Web Design - from www.w3schools.com*/
-
+/*RESPONSIVE WEB DESIGN - from www.w3schools.com*/
+* 
+{
+    box-sizing: border-box;
+}
 .row::after 
 {
     content: "";
@@ -42,7 +45,7 @@ body, h1, h2, h3, h4, p, img, ul, li
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
 }
-@media only screen and (min-width: 1365px) 
+@media only screen and (min-width: 1366px) 
 {
     /* For desktop and laptop screens from 1920px to 1366*/
     .col-1 {width: 8.33%;}
@@ -58,8 +61,9 @@ body, h1, h2, h3, h4, p, img, ul, li
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+/*END OF RESPONSIVE WEB DESIGN*/
 
-/*Layout*/
+/*LAYOUT*/
 
 html 
 {
@@ -67,3 +71,87 @@ html
     font-size: 16px;
     margin: 0; 
 }
+/*END OF LAYOUT*/
+
+/*HEADER*/
+
+.header 
+{
+	height: 150px;
+	background-image: -webkit-linear-gradient(0deg,rgba(0,155,223,1.00) 0%,rgba(13,185,190,1.00) 100%);
+	background-image: -moz-linear-gradient(0deg,rgba(0,155,223,1.00) 0%,rgba(13,185,190,1.00) 100%);
+	background-image: -o-linear-gradient(0deg,rgba(0,155,223,1.00) 0%,rgba(13,185,190,1.00) 100%);
+	background-image: linear-gradient(90deg,rgba(0,155,223,1.00) 0%,rgba(13,185,190,1.00) 100%);
+}
+
+.header h1
+{
+	/*change font so it doesn't look generic*/
+	color: whitesmoke;
+	text-align: center
+}
+
+.home-col-1, .home-col-2, .home-col-3, .home-col-4 /*Testing the borders of the columns*/
+{
+	border: red 1px solid
+}
+/*END OF HEADER*/
+
+/*NAVIGATION BAR*/
+.horizontal-navbar
+{
+	text-align: center;
+	margin: 0, auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*END OF NAVIGATION BAR*/
