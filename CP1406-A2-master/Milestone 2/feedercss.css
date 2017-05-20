@@ -1,0 +1,19 @@
+@charset "utf-8";
+#heading {
+	background-color: rgba(15,77,0,1.00);
+	color: rgba(224,63,65,1.00);
+	font-size: 512%;
+	font-family: passero-one;
+	font-style: normal;
+	font-weight: 400;
+}
+
+body {
+	background-color: rgba(164,217,220,1.00);
+	color: rgba(128,124,61,1.00);
+	font-size: large;
+}
+#forrest {
+	margin-bottom: 8px;
+
+}
