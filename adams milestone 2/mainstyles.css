@@ -1,0 +1,308 @@
+@charset "utf-8";
+/* MARGIN & PADDING RESET */
+body, h1, h2, h3, h4, p, img, ul, li
+{
+	padding: 0;
+	margin: 0;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.row .header h1 {
+	float: left;
+}
+.row .header {
+	background-image: -webkit-linear-gradient(125deg,rgba(0,156,222,1.00) 9.84%,rgba(13,185,190,1.00) 90.67%);
+	background-image: -moz-linear-gradient(125deg,rgba(0,156,222,1.00) 9.84%,rgba(13,185,190,1.00) 90.67%);
+	background-image: -o-linear-gradient(125deg,rgba(0,156,222,1.00) 9.84%,rgba(13,185,190,1.00) 90.67%);
+	background-image: linear-gradient(325deg,rgba(0,156,222,1.00) 9.84%,rgba(13,185,190,1.00) 90.67%);
+}
+
+
+.row img {
+	float: right;
+
+}
+
+.row .header {
+	padding-top: 0px;
+	padding-left: 0px;
+
+}
+
+
+
+
+/*RESPONSIVE WEB DESIGN - from www.w3schools.com*/
+* 
+{
+    box-sizing: border-box;
+}
+.row #signon {
+	padding-top: 90px;
+	clear: both;
+	margin-right: 28px;
+	margin-top: 0px;
+	margin-bottom: -173px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.row::after 
+{
+    content: "";
+    clear: both;
+	display: table;
+}
+
+[class*="col-"] 
+{
+    float: left;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] 
+{
+    width: 100%;
+}
+#About us h1 {
+}
+.row #textHome {
+	margin-top: 50px;
+}
+body footer {
+	background-color: #DC0C0F;
+	margin-top: 64px;
+}
+#home {
+	margin-top: 20px;
+}
+#bodyTXT {
+	margin-top: 20px;
+	background-color: #F2F2F2;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#notice {
+	margin-left: 50px;
+	margin-right: 853px;
+}
+#comingEvents {
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-right: 389px;
+	clear: none;
+}
+#footer {
+	margin-top: 100px;
+	max-height: 72%;
+
+
+
+}
+.row #poster img {
+	margin-right: 50px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 500px) 
+{
+    /* For tablets screens from 1365px to 500px*/
+    .col-m-1 {width: 8.33%;}
+
+
+
+.row #contact h1 {
+	margin-top: 20px;
+}
+
+
+
+    .col-m-2 {width: 16.66%;}
+
+#contact a {
+	font-size: x-large;
+}
+#pic {
+	clear: right;
+	margin-right: 50px;
+	margin-top: -370px;
+	padding-right: 0px;
+	padding-top: 0px;
+	float: right;
+
+}
+
+
+
+    .col-m-3 {width: 25%;}
+
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+
+
+
+    .col-m-10 {width: 83.33%;}
+
+    .col-m-11 {width: 91.66%;}
+
+    .col-m-12 {width: 100%;}
+.row #aboutUstext {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+}
+@media only screen and (min-width: 1366px) 
+{
+    /* For desktop and laptop screens from 1920px to 1366*/
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+/*END OF RESPONSIVE WEB DESIGN*/
+
+/*LAYOUT*/
+
+html 
+{
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 16px;
+    margin: 0; 
+}
+
+body
+{
+    height: 3000px;
+}
+/*END OF LAYOUT*/
+
+
+/*HEADER*/
+
+.header 
+{
+	height: 210px;
+	background-image: -webkit-linear-gradient(0deg,rgba(0,155,223,1.00) 0%,rgba(2,161,215,1.00) 17.10%,rgba(13,185,190,1.00) 87.56%);
+	background-image: -moz-linear-gradient(0deg,rgba(0,155,223,1.00) 0%,rgba(2,161,215,1.00) 17.10%,rgba(13,185,190,1.00) 87.56%);
+	background-image: -o-linear-gradient(0deg,rgba(0,155,223,1.00) 0%,rgba(2,161,215,1.00) 17.10%,rgba(13,185,190,1.00) 87.56%);
+	background-image: linear-gradient(90deg,rgba(0,155,223,1.00) 0%,rgba(2,161,215,1.00) 17.10%,rgba(13,185,190,1.00) 87.56%);
+}
+
+.header img
+{
+    float: left;
+    width: 200px;
+}
+
+.header h1
+{
+	/*change font so it doesn't look generic*/
+	color: whitesmoke;
+	text-align: center;
+    float: left;
+    width: 75%;
+    margin-top: 75px;
+    font-size: 50px
+}
+
+.home-col-1, .home-col-2, .home-col-3, .home-col-4 /*Testing the borders of the columns*/
+{
+	border: red 1px solid
+}
+/*END OF HEADER*/
+
+/*NAVIGATION BAR*/
+
+.horizontal-navbar
+{
+    z-index: auto;
+	text-align: center;
+    background-color: #333;
+    position: relative;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+}
+
+li {
+    float: left;
+    
+	
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #009bdf;
+    color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: ##009bdf}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*END OF NAVIGATION BAR*/
+.navbar-default {
+}
