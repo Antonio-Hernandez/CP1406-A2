@@ -1,271 +1,260 @@
-@charset "utf-8";
-/* MARGIN & PADDING RESET */
-body, h1, h2, h3, h4, p, img, ul, li
-{
-    padding: 0;
-    margin: 0;
-}
-body, h1, h2, h3, h4, p, img, ul, li
-{
-	padding: 0;
+body {
+	background-color: rgba(113,218,255,1.00);
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
 	margin: 0;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
-.row .header h1 {
-	float: left;
+h1, h2, h3, h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	background-color: rgba(28,167,231,0.00);
 }
-.row .header {
-	background-image: -webkit-linear-gradient(125deg,rgba(0,156,222,1.00) 9.84%,rgba(13,185,190,1.00) 90.67%);
-	background-image: -moz-linear-gradient(125deg,rgba(0,156,222,1.00) 9.84%,rgba(13,185,190,1.00) 90.67%);
-	background-image: -o-linear-gradient(125deg,rgba(0,156,222,1.00) 9.84%,rgba(13,185,190,1.00) 90.67%);
-	background-image: linear-gradient(325deg,rgba(0,156,222,1.00) 9.84%,rgba(13,185,190,1.00) 90.67%);
+h1 {
+	font-size: x-large;
 }
-
-
-.row img {
-	float: right;
-
+h4 {
+	font-style: italic;
 }
-
-.row .header {
-	padding-top: 0px;
-	padding-left: 0px;
-
-}
-
-
-/*RESPONSIVE WEB DESIGN - from www.w3schools.com*/
-* 
-{
-    box-sizing: border-box;
-}
-.row::after 
-{
-    content: "";
-    clear: both;
-	display: table;
-}
-
-[class*="col-"] 
-{
-    float: left;
-    padding: 15px;
-}
-
-/* For mobile phones: */
-[class*="col-"] 
-{
-    width: 100%;
-}
-
-
-@media only screen and (min-width: 500px) 
-{
-    
-    /* For tablets screens from 1365px to 500px*/
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
-}
-
-@media only screen and (min-width: 1366px ) 
-{
-    /* For desktop and laptop screens from 1920px to 1366*/
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-    
-}
-
-/*END OF RESPONSIVE WEB DESIGN*/
-
-/*LAYOUT*/
-
-html 
-{
-    font-family: Helvetica, sans-serif, Arial;
-    font-size: 16px;
-    margin: 0; 
-}
-
-body
-{
-    height: 3000px;
-}
-
-.content
-{
-    max-width: 1366px;
-    margin: auto;
-}
-
-.profile-col
-{
-    height: 750px;
-    background-color: #f2f2f2;
-    padding: 25px;
-    border-left: 10px solid white;
-    border-top: 10px solid white;
-    border-bottom: 10px solid white;
-}
-
-.description-col
-{
-    height: 750px;
-    background-color: #f2f2f2;
-    padding: 25px;
-    border-right: 10px solid white;
-    border-top: 10px solid white;
-    border-bottom: 10px solid white;
-}
-
-.description-col p
-{
-    margin-bottom: 15px;
-}
-
-.description-col h4
-{
-    margin-bottom: 20px;
-}
-
-.unavailable-box
-{
-    max-width: 300px;
-    height: 450px;
-    text-align: center;
-    padding-top: 210px;
-    margin-top: 30px;
-    background: #d1d1d1;
-    color: whitesmoke;
-}
-/*END OF LAYOUT*/
-
-/*HEADER*/
-
-.header 
-{
-	height: 210px;
-	background-image: -webkit-linear-gradient(0deg,rgba(0,155,223,1.00) 0%,rgba(13,185,190,1.00) 100%);
-	background-image: -moz-linear-gradient(0deg,rgba(0,155,223,1.00) 0%,rgba(13,185,190,1.00) 100%);
-	background-image: -o-linear-gradient(0deg,rgba(0,155,223,1.00) 0%,rgba(13,185,190,1.00) 100%);
-	background-image: linear-gradient(90deg,rgba(0,155,223,1.00) 0%,rgba(13,185,190,1.00) 100%);
-}
-
-.header img
-{
-    float: left;
-    width: 200px;
-}
-
-.header h1
-{
-	/*change font so it doesn't look generic*/
-	color: whitesmoke;
-	text-align: center;
-    float: left;
-    width: 75%;
-    margin-top: 75px;
-    font-size: 50px
-}
-
-.row #signon 
-{
-	padding-top: 90px;
+#footer {
+	position: relative;
 	clear: both;
-	margin-right: 28px;
-	margin-top: 0px;
-	margin-bottom: -173px;
-	color: #FFFFFF;
-	font-style: normal;
-	font-weight: bold;
-}
-
-.home-col-1, .home-col-2, .home-col-3, .home-col-4 /*Testing the borders of the columns*/
-{
-	border: red 1px solid
-}
-/*END OF HEADER*/
-
-/*NAVIGATION BAR*/
-
-.horizontal-navbar
-{
-    z-index: auto;
 	text-align: center;
-    background-color: #333;
-    position: relative;
+	font-size: 0.7em;
+	padding: 5px 3px;
+	background-color: #2c2e38;
+	color: #d7ceb2;
+	text-shadow: 1px 1px 0 #5c5f72;
+	font-family: 'BazarMedium', Arial, sans-serif;
+	border-radius: 15px 15px 0 0;
+	box-shadow: 5px -5px 5px #666;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    display: inline-block;
+#container {
+	margin: 2em;
+}
+#header {
+	padding: 5px 15px;
+	background-color: #2c2e38;
+	color: #d7ceb2;
+	text-shadow: 1px 1px 0 #2c2e38, 2px 2px 0 #5c5f72;
+	font: 1.5em 'BazarMedium', Arial, sans-serif;
+	border-radius: 0 0 15px 15px;
+	box-shadow: 5px 5px 5px #666;
+}
+#footer a {
+	color: #FC3;
+}
+.smaller {
+	font-family: "Times New Roman", Times, serif;
+	font-size: small
+}
+.codeandnames {
+	font-family: "Courier New", Courier, monospace;
+	text-decoration: none;
+	font-weight: bold
+}
+.highlightcolour {
+	color: #FF3300;
+	background-color: #FFFFFF
+}
+.breakhere {
+	page-break-before: always
+}
+.rightpanel {
+	clear: both;
+	float: right;
+	background-color: #f0f3ff;
+	margin-right: .2em;
+	width: 25%;
+	margin-left: 1em;
+	margin-bottom: 30px;
+	border: 1px solid #97bfff;
+}
+.rightpanel h4 {
+	background-color: #FFFFCC;
+	font-size: 0.8em;
+	margin: 0;
+	font-style: normal;
+	padding: 0.2em 0.3em;
+}
+.rightpanel p {
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0.5em 0.3em 0.2em;
+}
+.notebox {
+	clear: both;
+	background-color: #FFFFCC;
+	border: #97bfff 1px solid;
+	margin-right: 1.2em;
+	margin-left: 1.2em;
+}
+.notebox h4 {
+	font-size: 0.8em;
+	margin: 0;
+	font-style: normal;
+	padding: 0.2em 0.3em 0.2em 1em;
+	background-color: #97bfff;
+}
+.notebox p {
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0.5em 0.3em 0.2em;
+}
+form th {
+	font-weight: normal;
+	text-align: right;
+}
+.nav {
+	background-color: #3F0;
+}
+#mainForm {
+	border: thin gray solid;
+	border-radius: 15px;
+	width: 700px;
+}
+#mainForm input, #mainForm select, #mainForm textarea, #mainForm fieldset {
+	float: left;
+	margin-left: 10px;
+	width: 300px;
+	margin-bottom: 7px;
+}
+#mainForm label {
+	float: left;
+	clear: both;
+	width: 300px;
+	text-align: right;
+}
+#mainForm fieldset input, #mainForm fieldset label, #submission input {
+	float: none;
+	width: auto;
+}
+#submission {
+	text-align: center;
+	width: 620px;
+}
+br {
+	clear: left;
+}
+#message {
+	padding-left: 5em;
+}
+#mainForm #application fieldset {
+	text-align: left;
+}
+#mainForm #application fieldset {
+	margin-left: 0px;
+	margin-right: 14px;
+}
+#container #mainForm p {
+	float: left;
+	padding-right: 1px;
+}
+#container #mainForm #application {
+	margin-top: 33px;
+}
+#container #mainForm #membershipFees {
+	font-size: medium;
+}
+#container #mainForm p {
+	font-size: small;
+}
+body {
+	background-color: #1D5998;
+}
+img {
+	width: 64px;
+}
+h1 {
+	padding-right: 0px;
+	padding-left: 571px;
 }
 
-li {
-    float: left;
-    
-	
+#mainForm label #nameTick {
+	width: 15px;
+}
+#header {
+	background-color: #000000;
+	background-image: -webkit-linear-gradient(178deg,rgba(0,255,195,0.80) 35.24%,rgba(31,157,186,1.00) 73.58%,rgba(34,149,191,1.00) 97.41%);
+	background-image: -moz-linear-gradient(178deg,rgba(0,255,195,0.80) 35.24%,rgba(31,157,186,1.00) 73.58%,rgba(34,149,191,1.00) 97.41%);
+	background-image: -o-linear-gradient(178deg,rgba(0,255,195,0.80) 35.24%,rgba(31,157,186,1.00) 73.58%,rgba(34,149,191,1.00) 97.41%);
+	background-image: linear-gradient(272deg,rgba(0,255,195,0.80) 35.24%,rgba(31,157,186,1.00) 73.58%,rgba(34,149,191,1.00) 97.41%);
+}
+#header h1 {
+	font-family: cutive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: xx-large;
+}
+#header {
+	-webkit-box-shadow: 0px 0px #292F77;
+	box-shadow: 0px 0px #292F77;
+}
+#header .logo {
+	width: 133px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1px;
+	margin-left: -15px;
+	margin-bottom: -1px;
+	margin-top: -5px;
+}
+#container .notebox {
+	background-color: #265D9F;
+}
+#container h2 {
+	float: left;
+	padding-left: 432px;
+}
+#container .notebox {
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+#container #mainForm {
+	padding-left: 0px;
+	margin-top: 11px;
 }
+#header {
+	margin-top: -1px;
+	margin-bottom: -25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-top-right-radius: 0px;
 
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #009bdf;
-    color: white;
 }
-
-li.dropdown {
-    display: inline-block;
+#header h1 {
+	margin-left: 3px;
+	margin-top: -15px;
+	padding-top: 1px;
 }
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+#header .logo {
+	margin-bottom: -35px;
 }
+#header {
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+
+
 }
-
-.dropdown-content a:hover {background-color: ##009bdf}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+#footer {
+	background-color: #2D71B8;
+	-webkit-box-shadow: 0px 0px #3654A7;
+	box-shadow: 0px 0px #3654A7;
 }
-/*END OF NAVIGATION BAR*/
+body {
+	background-color: #4F9DD5;
+}
+#container .notebox {
+	background-color: #3383C5;
+}
+#footer {
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 10.36%,rgba(81,172,230,0.43) 85.49%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 10.36%,rgba(81,172,230,0.43) 85.49%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 10.36%,rgba(81,172,230,0.43) 85.49%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 10.36%,rgba(81,172,230,0.43) 85.49%);
+}
+body {
+	background-color: #49A3E3;
+}
+#container .notebox {
+	background-color: #3CA0E0;
+	border-color: #319AFB;
+}

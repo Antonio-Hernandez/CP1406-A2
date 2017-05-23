@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>Barrier Reef Orchesr</title>
+<link rel="stylesheet" href="mainstyles.css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/courier-prime:n4:default;cutive:n4:default.js" type="text/javascript"></script>
+
+</head>
+<div id="header"><img src="../BRO Organisied Content/logo.jpg" class="logo"/><h1>BARRIER REEF ORCHESTRA</h1>
+</div>
+<body>
+<a name="top" id="top"></a>
+<div id="container">
+  <h2> BARRIER REEF ORCHESTRA MEMBERSHIP FORM</h2>
+  <div class="notebox"><strong>Membership Application North Queensland Ensembles Inc</strong> PO Box 576, Townsville  4810
+    tel. 07 4722 2789 email brotownsville@gmail.com
+    A.B.N. 73 365 249 138 North Queensland Ensembles Inc. is the administration body of the Barrier Reef Orchestra, by becoming a member you are supporting Townsville’s Community Orchestra which was formed in 2000.
+  
+  </div>
+  
+  <form action="" method="post" name="mainForm" id="mainForm" onsubmit="return checkForm();">
+    <p> <br>
+      <label for="Aplication">Membership<br>
+        (<a href="#" onClick="clearArea(); return false">click here to select all/none</a>)<br>
+  <br>
+      </label>
+    <fieldset id="application">
+      <input name="areaVisited" type="checkbox" id="areaRenewalMembership" value="RenewalMembership" onChange="checkArea()"/>
+      <label for="arearenewalMembership">Renewal membership </label>
+      <br>
+      <input name="areaVisited" type="checkbox" id="areaNewMmembership" value="NewMembership" onChange="checkArea()"/>
+      <label for="areaNewMembership">New membership</label>
+      <br>
+      <label for="Aplication">
+      Membership Type:<br>
+      <fieldset>
+        <input name="areaVisited" type="checkbox" id="areaAdult " value="Adult " onChange="checkArea()"/>
+        <label for="areaAdult">Adult </label>
+        <br>
+        <input name="areaVisited" type="checkbox" id="AreaFamily" value="Family" onChange="checkArea()"/>
+        <label for="AreaFamily">Family</label>
+        <br>
+        <input name="areaVisited" type="checkbox" id="AreaStudent" value="Student" onChange="checkArea()"/>
+        <label for="AreaStudent">Student</label>
+        <br>
+        <input name="areaVisited" type="checkbox" id="AreaConcession" value="Concession" onChange="checkArea()"/>
+        <label for="AreaConcession">Concession</label>
+        <br>
+        <label for="Student/Concession Number">Student/Concession Number:</label>
+        <input type="text" id="Student/Concession Number" name="Student/Concession Number" size="40" placeholder="e.g. 4528645"/>
+      </fieldset>
+      </label>
+    </fieldset>
+    <p>Applicant Details:</p>
+    <br>
+    <label for="Title/s">Title/s:</label>
+    <input type="text" id="Title/s" name="Title/s" size="40" placeholder="e.g. Mr/Mrs"/>
+    <br>
+    <label for="familyName">Family Name:</label>
+    <input type="text" id="familyName" name="familyName" size="40" placeholder="e.g. McDonalds"/>
+    <br>
+    <label for="name">Given Name: <img src="cross.png" alt="X" name="nameTick" width="12" height="12"
+                                              id="nameTick"/></label>
+    <input type="text" name="name" id="name" size="40" autofocus onKeyUp="nameEntered(this);"/>
+    </p>
+    <div class="notebox" id="output">&nbsp;</div>
+    <br>
+    <label for="address">Address::</label>
+    <input type="text" id="address" name="address" size="40" placeholder="e.g. 123 Sesame Street "/>
+    <br>
+    <label for="p/C">P/C:</label>
+    <input type="text" name="p/C" id="p/C" size="40" style="color:#000000" onFocus="changeStyle(this)"
+               onBlur="changeColor(this, '#990099')"/>
+    <br>
+    <label for="mobile">Mobile:</label>
+    <input type="mobile" name="mobile" id="mobile" onChange="this.style.borderRadius='1em'"/>
+    <br>
+    <label for="phone">Phone</label>
+    <input type="text" name="phone" id="phone" size="40" style="color:#000000"
+               onKeyUp="setColourBasedOnLength('phone', 8)"/>
+    <br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" size="40" placeholder="abcde11@example.com "/>
+    <br>
+    <label for="membershipFees">Membership fees:</label>
+    <select name="membershipFees" id="membershipFees">
+      <option value="Adult$30."> Adult: $30. </option>
+      <option value="Family:$60">Family: $60.</option>
+      <option value="FullTimeStudent:$15">Full time student: $15.</option>
+      <option value="Under18:$15">Under 18: $15 </option>
+      <option value="Concession:$15">Concession: $15</option>
+    </select>
+    <p>Concession available to persons in receipt of Centrelink pension card. Family membership available to a group of two adults and three persons under the age of 18 all of whom reside at the same address.</p>
+    <br>
+    <label for="paymentOptions">Payment Options:</label>
+    <select name="paymentOptions" id="paymentOptions">
+      <option value="Cash$"> Cash $. </option>
+      <option value="Cheque$">Cheque $</option>
+      <option value="DirectDebitTo:NQEnsemblesInc.BSB034222Account:173033(PleaseIncludeFamilyNameAsPaymentReference)">Direct Debit to: NQ Ensembles Inc.  BSB 034 222  Account: 17 3033 (Please include family name as payment reference).</option>
+    </select>
+    <label for="areas">How can you help the Orchestra?I am interested in:<br>
+      (<a href="#" onclick="clearArea(); return false">click here to select all/none</a>)</label>
+    <fieldset id="areas">
+      <input name="areaVisited" type="checkbox" id="areaPlayingInTheOrchestraOrEnsembles" value="playingInTheOrchestraOrEnsembles" onChange="checkArea()"/>
+      <label for="areaPlayingInTheOrchestraOrEnsembles">Playing in the Orchestra or Ensembles</label>
+      <br>
+      <input name="areaVisited" type="checkbox" id="areaManagement/administration" value="management/administration" onChange="checkArea()"/>
+      <label for="areaManagement/administration">Management/administration</label>
+      <br>
+      <input name="areaVisited" type="checkbox" id="areaPlayerSupport" value="playerSupport" onChange="checkArea()"/>
+      <label for="areaPlayerSupport">Player Support</label>
+      <br>
+      <input name="areaVisited" type="checkbox" id="AreaFundraising" value="fundraising" onChange="checkArea()"/>
+      <label for="AreaFundraising">Fundraising</label>
+      <br>
+      <input name="areaVisited" type="checkbox" id="AreaMarketing/Promotion" value="marketing/promotion" onChange="checkArea()"/>
+      <label for="AreaMarketing/Promotion">Marketing/Promotion</label>
+      <br>
+      <input name="areaVisited" type="checkbox" id="AreaSponsorship" value="sponsorship" onChange="checkArea()"/>
+      <label for="AreaSponsorship">Sponsorship</label>
+      <br>
+       <input name="areaVisited" type="checkbox" id="AreaDesktopPublishing" value="desktoppublishing" onChange="checkArea()"/>
+      <label for="AreaDesktopPublishing">Desktop publishing</label>
+    </fieldset>
+    <br>
+ <p>Player Registration</p>
+   <label for="instrument/Splayed">Instrument/s played:</label>
+    <input type="text" id="instrument/sPlayed" name="instrument/sPlayed" size="40" placeholder="e.g. Guitar"/>
+    <br>
+    <label for="qualifications">Qualifications:</label>
+    <input type="text" id="qualifications" name="instrument/sPlayed" size="40"/>
+    <br>
+    <label for="comments">Please inform us of your experience:<br>
+      <span id="characters">(10 characters remaining)</span> </label>
+    <textarea name="comments" cols="50" rows="4" id="comments" onKeyUp="updateCharacters(unlimited)"></textarea>
+    <br>
+    <hr>
+    <p>For Office Use only</p>
+    <label for="nominated">Nominated:</label>
+    <input type="text" id="nominated" name="nominated" size="40" />
+    <br>
+    <label for="seconded">Seconded:</label>
+    <input type="text" id="seconded" name="seconded" size="40" />
+    <br>
+    <label for="membershipAccepted">Membership Accepted:</label>
+    <input type="text" id="membershipAccepted" name="membershipAccepted" size="40" />
+    <br>
+    <label for="receiptNumber">Receipt Number:</label>
+    <input type="text" id="receiptNumber" name="receiptNumber" size="40" />
+    <br>
+    <label for="enteredInRegister">Entered in Register:</label>
+    <input type="text" id="enteredInRegister" name="enteredInRegister" size="40" />
+    <br>
+    <label for="cardSent">Card Sent:</label>
+    <input type="text" id="cardSent" name="cardSent" size="40" />
+    <br>
+    <div id="submission">
+      <!--<input type="reset" value="Reset" name="Reset" id="Reset" onclick="return confirm('Reset all fields?')"/>-->
+      <input type="reset" value="Reset" name="Reset" id="Reset" onclick="return resetForm()"/>
+      or
+      <input type="submit" value="Submit"/>
+    </div>
+    <div><span id="message"></span></div>
+  </form>
+</div>
+<div id="footer">
+  <p>&copy; 2017 Barrier Reef Orchestra, <a href="http://nqorchestra.com.au/" target="_self">Barrier Reef Orchestra</a> | <a
+            href="#header" target="_self">To Top</a></p>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
