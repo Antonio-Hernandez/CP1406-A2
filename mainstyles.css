@@ -1,24 +1,20 @@
 body {
-	background-color: #5780E0;
+	background-color: rgba(113,218,255,1.00);
 	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: left;
 	margin: 0;
 }
 h1, h2, h3, h4 {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	background-color: rgba(28,167,231,0.00);
 }
 h1 {
-	font-size: xx-large;
-	text-align: center;
-	font-family: arvo;
-	font-style: normal;
-	font-weight: 400;
-	color: #1B51B0;
+	font-size: x-large;
 }
 h4 {
-    font-style: italic;
+	font-style: italic;
 }
 #footer {
 	position: relative;
@@ -26,20 +22,19 @@ h4 {
 	text-align: center;
 	font-size: 0.7em;
 	padding: 5px 3px;
-	background-color: #949CDD;
+	background-color: #2c2e38;
 	color: #d7ceb2;
 	text-shadow: 1px 1px 0 #5c5f72;
 	font-family: 'BazarMedium', Arial, sans-serif;
 	border-radius: 15px 15px 0 0;
 	box-shadow: 5px -5px 5px #666;
 }
-
 #container {
-    margin: 2em;
+	margin: 2em;
 }
 #header {
 	padding: 5px 15px;
-	background-color: #4F5ED8;
+	background-color: #2c2e38;
 	color: #d7ceb2;
 	text-shadow: 1px 1px 0 #2c2e38, 2px 2px 0 #5c5f72;
 	font: 1.5em 'BazarMedium', Arial, sans-serif;
@@ -47,55 +42,52 @@ h4 {
 	box-shadow: 5px 5px 5px #666;
 }
 #footer a {
-    color:#FC3;
+	color: #FC3;
 }
 .smaller {
-    font-family: "Times New Roman", Times, serif;
-    font-size: small
+	font-family: "Times New Roman", Times, serif;
+	font-size: small
 }
 .codeandnames {
-    font-family: "Courier New", Courier, monospace;
-    text-decoration: none;
-    font-weight: bold
+	font-family: "Courier New", Courier, monospace;
+	text-decoration: none;
+	font-weight: bold
 }
 .highlightcolour {
-    color: #FF3300;
-    background-color: #FFFFFF
+	color: #FF3300;
+	background-color: #FFFFFF
 }
 .breakhere {
-    page-break-before: always
+	page-break-before: always
 }
 .rightpanel {
-    clear: both;
-    float: right;
-    background-color: #f0f3ff;
-    margin-right: .2em;
-    width: 25%;
-    margin-left: 1em;
-    margin-bottom: 30px;
-    border: 1px solid #97bfff;
+	clear: both;
+	float: right;
+	background-color: #f0f3ff;
+	margin-right: .2em;
+	width: 25%;
+	margin-left: 1em;
+	margin-bottom: 30px;
+	border: 1px solid #97bfff;
 }
 .rightpanel h4 {
-    background-color: #FFFFCC;
-    font-size: 0.8em;
-    margin: 0;
-    font-style: normal;
-    padding: 0.2em 0.3em;
+	background-color: #FFFFCC;
+	font-size: 0.8em;
+	margin: 0;
+	font-style: normal;
+	padding: 0.2em 0.3em;
 }
 .rightpanel p {
-    font-size: 0.9em;
-    margin: 0;
-    padding: 0.5em 0.3em 0.2em;
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0.5em 0.3em 0.2em;
 }
 .notebox {
 	clear: both;
-	background-color: #4F5ED8;
+	background-color: #FFFFCC;
 	border: #97bfff 1px solid;
 	margin-right: 1.2em;
 	margin-left: 1.2em;
-	padding-right: 0px;
-	padding-left: 0px;
-	text-align: center;
 }
 .notebox h4 {
 	font-size: 0.8em;
@@ -103,87 +95,166 @@ h4 {
 	font-style: normal;
 	padding: 0.2em 0.3em 0.2em 1em;
 	background-color: #97bfff;
-	text-align: center;
 }
 .notebox p {
-    font-size: 0.8em;
-    margin: 0;
-    padding: 0.5em 0.3em 0.2em;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0.5em 0.3em 0.2em;
 }
-
 form th {
-    font-weight: normal;
-    text-align: right;
+	font-weight: normal;
+	text-align: right;
 }
 .nav {
-    background-color: #3F0;
+	background-color: #3F0;
 }
 #mainForm {
 	border: thin gray solid;
-	border-radius: 7px;
-	width: 698px;
-	text-align: center;
-	list-style-position: outside;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-left: 378px;
-	height: 0%;
-	padding-left: 32px;
-	padding-right: 73px;
+	border-radius: 15px;
+	width: 700px;
 }
-#mainForm p {
-}
-#mainForm p {
-}
-#mainForm p {
-}
-#mainForm p {
-	text-align: left;
-	font-style: normal;
-	font-variant: normal;
-}
-
-
-
 #mainForm input, #mainForm select, #mainForm textarea, #mainForm fieldset {
 	float: left;
 	margin-left: 10px;
 	width: 300px;
 	margin-bottom: 7px;
-	text-align: left;
 }
-#mainForm #payment p {
-	font-size: small;
-}
-
 #mainForm label {
-    float: left;
-    clear:both;
-    width: 300px;
-    text-align:right;
+	float: left;
+	clear: both;
+	width: 300px;
+	text-align: right;
 }
 #mainForm fieldset input, #mainForm fieldset label, #submission input {
-    float:none;
-    width:auto;
+	float: none;
+	width: auto;
 }
 #submission {
-    text-align:center;
-    width: 620px;
+	text-align: center;
+	width: 620px;
 }
 br {
-    clear: left;
+	clear: left;
 }
-#message { padding-left: 5em; }
-body {
+#message {
+	padding-left: 5em;
 }
-.logo {
-	background-image: url(url);
-}
-body {
-}
-.nominated {
+#mainForm #application fieldset {
 	text-align: left;
-	right: 160px;
+}
+#mainForm #application fieldset {
+	margin-left: 0px;
+	margin-right: 14px;
+}
+#container #mainForm p {
+	float: left;
+	padding-right: 1px;
+}
+#container #mainForm #application {
+	margin-top: 33px;
+}
+#container #mainForm #membershipFees {
+	font-size: medium;
+}
+#container #mainForm p {
+	font-size: small;
+}
+body {
+	background-color: #1D5998;
+}
+img {
+	width: 64px;
+}
+h1 {
+	padding-right: 0px;
+	padding-left: 571px;
+}
+
+#mainForm label #nameTick {
+	width: 15px;
+}
+#header {
+	background-color: #000000;
+	background-image: -webkit-linear-gradient(178deg,rgba(0,255,195,0.80) 35.24%,rgba(31,157,186,1.00) 73.58%,rgba(34,149,191,1.00) 97.41%);
+	background-image: -moz-linear-gradient(178deg,rgba(0,255,195,0.80) 35.24%,rgba(31,157,186,1.00) 73.58%,rgba(34,149,191,1.00) 97.41%);
+	background-image: -o-linear-gradient(178deg,rgba(0,255,195,0.80) 35.24%,rgba(31,157,186,1.00) 73.58%,rgba(34,149,191,1.00) 97.41%);
+	background-image: linear-gradient(272deg,rgba(0,255,195,0.80) 35.24%,rgba(31,157,186,1.00) 73.58%,rgba(34,149,191,1.00) 97.41%);
+}
+#header h1 {
+	font-family: cutive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: xx-large;
+}
+#header {
+	-webkit-box-shadow: 0px 0px #292F77;
+	box-shadow: 0px 0px #292F77;
+}
+#header .logo {
+	width: 133px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1px;
+	margin-left: -15px;
+	margin-bottom: -1px;
+	margin-top: -5px;
+}
+#container .notebox {
+	background-color: #265D9F;
+}
+#container h2 {
+	float: left;
+	padding-left: 432px;
+}
+#container .notebox {
+}
+
+#container #mainForm {
+	padding-left: 0px;
+	margin-top: 11px;
+}
+#header {
+	margin-top: -1px;
+	margin-bottom: -25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-top-right-radius: 0px;
+
+}
+#header h1 {
+	margin-left: 3px;
+	margin-top: -15px;
+	padding-top: 1px;
+}
+#header .logo {
+	margin-bottom: -35px;
+}
+#header {
+
+
+
 }
 #footer {
+	background-color: #2D71B8;
+	-webkit-box-shadow: 0px 0px #3654A7;
+	box-shadow: 0px 0px #3654A7;
+}
+body {
+	background-color: #4F9DD5;
+}
+#container .notebox {
+	background-color: #3383C5;
+}
+#footer {
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 10.36%,rgba(81,172,230,0.43) 85.49%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 10.36%,rgba(81,172,230,0.43) 85.49%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 10.36%,rgba(81,172,230,0.43) 85.49%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 10.36%,rgba(81,172,230,0.43) 85.49%);
+}
+body {
+	background-color: #49A3E3;
+}
+#container .notebox {
+	background-color: #3CA0E0;
+	border-color: #319AFB;
 }
