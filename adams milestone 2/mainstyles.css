@@ -36,6 +36,15 @@ body, h1, h2, h3, h4, p, img, ul, li
 {
     box-sizing: border-box;
 }
+#contact {
+	background-color: #F2F2F2;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 0px;
+}
+
 .row #signon {
 	padding-top: 90px;
 	clear: both;
@@ -68,30 +77,55 @@ body, h1, h2, h3, h4, p, img, ul, li
 #About us h1 {
 }
 .row #textHome {
-	margin-top: 50px;
+	margin-top: 40px;
+	background-color: #F2F2F2;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 25px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-bottom: 40px;
+	padding-top: 10px;
 }
+
 body footer {
 	background-color: #DC0C0F;
 	margin-top: 64px;
 }
+
 #home {
 	margin-top: 20px;
 }
+#freeposter img {
+	margin-top: -240px;
+	margin-right: 100px;
+}
+
+
 #bodyTXT {
 	margin-top: 20px;
 	background-color: #F2F2F2;
 	margin-left: 50px;
 	margin-right: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 #notice {
 	margin-left: 50px;
 	margin-right: 853px;
+	margin-top: -400px;
 }
 #comingEvents {
-	margin-left: 50px;
-	margin-top: 30px;
-	margin-right: 389px;
+	margin-top: 15px;
 	clear: none;
+	background-color: #F2F2F2;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	float: left;
+	margin-left: 40px;
+	padding-right: 20px;
 }
 #footer {
 	margin-top: 100px;
@@ -101,9 +135,32 @@ body footer {
 
 }
 .row #poster img {
-	margin-right: 50px;
-	margin-top: 20px;
+	margin-top: 50px;
+	margin-right: 110px;
+	padding-right: 10px;
+	padding-top: 10px;
+
+
 }
+.row #textHome p {
+	background-color: #F2F2F2;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#video {
+	padding-top: 20px;
+
+}
+#contact img {
+	float: none;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+
+
+
 
 
 
@@ -125,6 +182,8 @@ body footer {
 
 
 
+
+
 .row #contact h1 {
 	margin-top: 20px;
 }
@@ -138,11 +197,11 @@ body footer {
 }
 #pic {
 	clear: right;
-	margin-right: 50px;
-	margin-top: -370px;
 	padding-right: 0px;
 	padding-top: 0px;
 	float: right;
+	margin-right: 50px;
+	margin-top: -100px;
 
 }
 
@@ -169,7 +228,11 @@ body footer {
 	margin-right: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
+	background-color: #F2F2F2;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
+
 
 }
 @media only screen and (min-width: 1366px) 
