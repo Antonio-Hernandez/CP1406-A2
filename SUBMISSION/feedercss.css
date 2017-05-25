@@ -1,0 +1,67 @@
+@charset "utf-8";
+#heading {
+	background-color: rgba(15,77,0,1.00);
+	color: rgba(224,63,65,1.00);
+	font-size: 512%;
+	font-family: passero-one;
+	font-style: normal;
+	font-weight: 400;
+}
+body h1 {
+	text-decoration: underline;
+
+}
+
+
+body {
+	background-color: rgba(164,217,220,1.00);
+	color: rgba(128,124,61,1.00);
+	font-size: large;
+}
+body a {
+	font-size: xx-large;
+	color: #847C3D;
+}
+#chamber {
+	margin-top: 200px;
+
+}
+
+
+#forrest {
+	margin-bottom: 8px;
+
+}
+#bodyText {
+	padding-top: 20px;
+	padding-left: 0px;
+	clear: none;
+	text-align: center;
+	margin-left: 449px;
+}
+#title #poster img {
+	clear: left;
+	float: right;
+	padding-left: 20px;
+	margin-right: 75px;
+
+}
+#poster #BUY {
+	color: #E03F41;
+	font-size: x-large;
+	text-decoration: underline;
+}
+
+#poster p a {
+	text-decoration: underline;
+	font-size: medium;
+	color: #E03F41;
+
+
+}
+
+#title #poster2 {
+	float: right;
+	margin-top: 50px;
+
+}
