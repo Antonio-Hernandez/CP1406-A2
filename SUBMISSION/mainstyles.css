@@ -89,7 +89,7 @@ body, h1, h2, h3, h4, p, img, ul, li
 	padding-top: 10px;
 }
 
-body footer {
+body footer { 
 	background-color: #DC0C0F;
 	margin-top: 64px;
 }
@@ -128,8 +128,8 @@ body footer {
 	padding-right: 20px;
 }
 #footer {
-	margin-top: 100px;
-	max-height: 72%;
+	background-color: #8C6E6F;
+	margin-top: 20px;
 
 
 
